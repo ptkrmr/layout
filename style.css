@@ -1,0 +1,114 @@
+
+
+*{margin: 0; padding:0;}
+header{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+    align-items:center;
+    
+}
+header .logo{
+        width: 150px;
+    }
+header .logo img{
+       width: 100%;
+}
+header ul{
+	display: flex;
+    align-items: center;
+    height: 20vh;
+}
+header ul li{
+	list-style: none;
+    
+}
+header ul li a{
+	text-decoration: none;
+	color: #59342D;
+	padding: 5px 15px;
+	border-radius: 15px;
+	transition: all 500ms ease-in 200ms;
+    font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+}
+header ul li a:hover{
+	background: black;
+	color: #fff;
+}
+div.content{
+    display:flex;
+}
+main{
+	width: 80%;
+	height: 60vh;
+    border:1px solid black;
+    background: #D8B7B1;
+}
+main h3{
+    font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+    color: #59342D
+}
+main .bloco-principal{
+    width: 100%;
+    padding: 20px;
+}
+main .noticia{
+    width: 80%;
+    display:flex;
+}
+main .noticia h3{
+    padding: 20px 0;
+}
+main .noticia img{
+    width:200px;
+    padding: 15px;
+}
+main .noticia p{
+	margin-bottom: 15px;
+}
+main p{
+    font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .noticia a{
+	background: #59342D;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px;
+    font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+main .grid-3{
+	display: flex;
+	padding: 15px;
+}
+main .grid-3 .coluna{
+	width: 33%;
+    margin: 10px;
+}
+main .grid-3 .coluna img{
+	width: 100%;
+}
+main .grid-3 .coluna h3{
+    text-align: center;
+}
+aside{
+	width: 20%;
+	height: 60vh;
+	background: gray;
+}
+footer{
+	width: 100%;
+	height: 20vh;
+	background: black;
+}	
