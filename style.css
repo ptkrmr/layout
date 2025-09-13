@@ -44,7 +44,7 @@ div.content{
 }
 main{
 	width: 80%;
-	height: 60vh;
+	
     border:1px solid black;
     background: #D8B7B1;
 }
@@ -95,12 +95,27 @@ main .grid-3{
 main .grid-3 .coluna{
 	width: 33%;
     margin: 10px;
+    text-align: center;
 }
 main .grid-3 .coluna img{
-	width: 100%;
+	width: 80%;
+    height: 40%;
 }
 main .grid-3 .coluna h3{
-    text-align: center;
+    
+}
+main .grid-3 .coluna p{
+    margin: 15px;
+}
+main .grid-3 .coluna a{
+    background: #59342D;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px;
+    font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin: 15px;
 }
 aside{
 	width: 20%;
