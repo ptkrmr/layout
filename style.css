@@ -43,7 +43,7 @@ div.content{
     display:flex;
 }
 main{
-	width: 80%;
+	
 	
     border:1px solid black;
     background: #D8B7B1;
@@ -120,7 +120,16 @@ main .grid-3 .coluna a{
 aside{
 	width: 20%;
 	height: 60vh;
-	background: gray;
+}
+aside img{
+	width: 100%;
+	margin: 10px;
+}
+aside a img{
+	transition: all 0.3s ease-in;
+}
+aside a:hover img{
+	transform:scale(1.5);
 }
 footer{
 	width: 100%;
