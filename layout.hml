@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>Layout</title>
+    <meta name="viewport"content="widrh=device-width,initial=scale-1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+    			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFStnmMDBcutoHxrrEKv9lrYYxy7s_2KARw&s.png">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Sobre nós</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+    <div class='content'>
+	    <main>
+            <div class="bloco-principal">
+                <div class="noticia">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3RRoaVEghU03fiq-nIkJK1I788USm_etAtA&s.jpg">
+                    <div class="descricao">
+                        <h3>Essa é uma notícia boa</h3>
+                        <p>Aqui esta a descrição dessa notícia</p>
+            		<a href="#">Saiba mais</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3">
+            	<div class="coluna">
+            		<img src="https://premierpet.com.br/wp-content/uploads/2023/12/shutterstock_2341407545-1024x683.jpg">
+            		<h3>Titulo</h3>
+            		<p>Descrição qualquer aqui</p>
+            		<a href="#">Saiba mais</a>
+            	</div>
+            	<div class="coluna">
+            		<img src="https://png.pngtree.com/png-vector/20241012/ourmid/pngtree-beautiful-black-and-white-siamese-cat-png-image_13994516.png">
+            		<h3>Titulo</h3>
+            		<p>Descrição qualquer aqui</p>
+            		<a href="#">Saiba mais</a>
+            	</div>
+            	<div class="coluna">
+            		<img src="https://www.shutterstock.com/image-photo/beautiful-siamese-cat-posing-studio-260nw-2571860279.jpg">
+            		<h3>Titulo</h3>
+            		<p>Descrição qualquer aqui</p>
+            		<a href="#">Saiba mais</a>
+            	</div>
+            	<div class="coluna">
+            		<img src="mario.webp">
+            		<h3>Titulo</h3>
+            		<p>Descrição qualquer aqui</p>
+            		<a href="#">Saiba mais</a>
+            	</div>
+            	<div class="coluna">
+            		<img src="mario.webp">
+            		<h3>Titulo</h3>
+            		<p>Descrição qualquer aqui</p>
+            		<a href="#">Saiba mais</a>
+            	</div>
+            	<div class="coluna">
+            		<img src="mario.webp">
+            		<h3>Titulo</h3>
+            		<p>Descrição qualquer aqui</p>
+            		<a href="#">Saiba mais</a>
+            	</div>
+            </div>
+	    </main>
+	    <aside>
+	    	<a href="#">
+	    		<img src="mario.webp">
+	    	</a>
+	    	<a href="#">
+	    		<img src="mario.webp">
+	    	</a>
+	    	<a href="#">
+	    		<img src="mario.webp">
+	    	</a>
+	    	<a href="#">
+	    		<img src="mario.webp">
+	    	</a>
+	    </aside>
+    </div>                                       
+	<footer>
+		<div class="footer-grid">
+			<h2>Entre em contato</h2>
+			<form>
+				<input type="text" name="nome" placeholder="Seu nome">
+				<input type="text" name="assunto" placeholder="Qual o Assunto?">
+				<textarea name="mensagem" placeholder="Escreva aqui"></textarea>
+				<input type="submit" name="enviar" value="Enviar">
+			</form>
+		</div>
+		<div class="footer-grid">
+			<h2>Sobre Nós</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.
+			</p>
+		</div>
+		<div class="footer-grid">
+			<h2>Siga nossas redes</h2>
+			<div class="redes">
+				<div class="face">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6Ah60R4-XkGMVmJabA20gFMs2FFw8g057g&s">
+					<h4>supermario</h4>
+				</div>
+				<div class="insta">
+					<img src="https://img.freepik.com/psd-premium/instagram-logotipo_971166-164497.jpg?semt=ais_hybrid&w=740&q=80">
+					<h4>supermario</h4>
+				</div>
+				<div class="youtube">
+					<img src="https://d1muf25xaso8hp.cloudfront.net/https://img.criativodahora.com.br/2023/10/MjAvMTAvMjAyMyAxMGg1Mg==65328621ca4bc.jpeg?w=1000&h=&auto=compress&dpr=1&fit=max">
+					<h4>supermario</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

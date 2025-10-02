@@ -1,13 +1,10 @@
-
-
-*{margin: 0; padding:0;}
+*{margin: 0; padding:0; font-family: arial;}
 header{
 	width: 100%;
 	height: 20vh;
 	display: flex;
 	justify-content: center;
     align-items:center;
-    
 }
 header .logo{
         width: 150px;
@@ -22,18 +19,13 @@ header ul{
 }
 header ul li{
 	list-style: none;
-    
 }
 header ul li a{
 	text-decoration: none;
-	color: #59342D;
+	color: #000;
 	padding: 5px 15px;
 	border-radius: 15px;
 	transition: all 500ms ease-in 200ms;
-    font-family: "Meie Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-    font-size: 30px;
 }
 header ul li a:hover{
 	background: black;
@@ -43,17 +35,7 @@ div.content{
     display:flex;
 }
 main{
-	
-	
-    border:1px solid black;
-    background: #D8B7B1;
-}
-main h3{
-    font-family: "Meie Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-    font-size: 30px;
-    color: #59342D
+	width: 80%;
 }
 main .bloco-principal{
     width: 100%;
@@ -73,53 +55,51 @@ main .noticia img{
 main .noticia p{
 	margin-bottom: 15px;
 }
-main p{
-    font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 main .noticia a{
-	background: #59342D;
+	background: blue;
 	color: #fff;
 	text-decoration: none;
 	padding: 5px 15px;
-    font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-    
 }
 main .grid-3{
 	display: flex;
 	padding: 15px;
+	text-align: center;
+	flex-wrap: wrap;
 }
 main .grid-3 .coluna{
-	width: 33%;
-    margin: 10px;
-    text-align: center;
+	width: 31%;
+	margin: 10px;
 }
 main .grid-3 .coluna img{
-	width: 80%;
-    height: 40%;
+	width: 100%;
 }
 main .grid-3 .coluna h3{
-    
+	text-transform: uppercase;
+	text-align: center;
+	color: red;
 }
 main .grid-3 .coluna p{
-    margin: 15px;
+	text-align: center;
+	color:blue;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 main .grid-3 .coluna a{
-    background: #59342D;
-	color: #fff;
-	text-decoration: none;
+	background: red;
+	color: white;
 	padding: 5px 15px;
-    font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-    margin: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
 }
+main .grid-3 .coluna a:hover{
+	background: blue;
+}
+
+
 aside{
 	width: 20%;
-	height: 60vh;
 }
 aside img{
 	width: 100%;
@@ -133,6 +113,47 @@ aside a:hover img{
 }
 footer{
 	width: 100%;
-	height: 20vh;
 	background: black;
+	display: flex;
+	padding: 20px;
 }	
+footer h2{
+	font-size: 26px;
+	color: yellow;
+	text-transform: uppercase;
+}
+footer form{
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+}
+footer form input[type='text']{
+	height: 40px;
+	background: white;
+	border: 0;
+	margin-bottom: 5px;
+	width: 100%;
+}
+footer form input[type='submit']{
+	background: blue;
+	color: white;
+	padding: 7px 15px;
+	border: 0;
+}
+footer form input[type='submit']:hover{
+	background: red;
+}
+footer .footer-grid{
+	margin: 10px;
+	width: 33%;
+}
+footer p{
+	color: white;
+}
+footer .redes div img{
+    width: 40px;
+    margin: 5px;
+}
+footer .redes div{
+    color: #fff;
+}
