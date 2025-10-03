@@ -157,3 +157,17 @@ footer .redes div img{
 footer .redes div{
     color: #fff;
 }
+footer .redes div{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 1108px){
+    main .grid-3 .coluna{
+	width: 47%;
+    }
+}
+@media screen and (max-width: 870px){
+    main .grid-3 .coluna{
+	width: 98%;
+    }
+}
