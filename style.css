@@ -1,4 +1,7 @@
 *{margin: 0; padding:0; font-family: arial;}
+body{
+    background: ;
+}
 header{
 	width: 100%;
 	height: 30vh;
@@ -6,6 +9,7 @@ header{
 	justify-content: center;
     align-items:center;
     background: #1b3a61;
+
 }
 header .logo{
         width: 150px;
@@ -23,14 +27,18 @@ header ul li{
 }
 header ul li a{
 	text-decoration: none;
-	color: #000;
+	color: white;
 	padding: 5px 15px;
 	border-radius: 15px;
 	transition: all 500ms ease-in 200ms;
+font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 25px;
 }
 header ul li a:hover{
 	background: black;
-	color: #fff;
+	color: white;
 }
 div.content{
     display:flex;
@@ -39,13 +47,26 @@ main{
 	width: 80%;
 }
 main .bloco-principal{
-    width: 93%;
+    width: 95%;
     padding: 20px;
-    background: black;
+    
+}
+main .bloco-principal h3{
+    color: #1b3a61;
+font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+main .bloco-principal p{
+    font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 main .noticia{
     width: 80%;
     display:flex;
+    
 }
 main .noticia h3{
     padding: 20px 0;
@@ -56,18 +77,23 @@ main .noticia img{
 }
 main .noticia p{
 	margin-bottom: 15px;
+
 }
 main .noticia a{
-	background: blue;
-	color: #fff;
+	background: #1b3a61;
+	color: white;
 	text-decoration: none;
 	padding: 5px 15px;
+font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 main .grid-3{
 	display: flex;
 	padding: 15px;
 	text-align: center;
 	flex-wrap: wrap;
+    
 }
 main .grid-3 .coluna{
 	width: 31%;
@@ -77,29 +103,39 @@ main .grid-3 .coluna img{
 	width: 100%;
 }
 main .grid-3 .coluna h3{
-	text-transform: uppercase;
+	
 	text-align: center;
-	color: red;
+	color: #1b3a61;
+font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 main .grid-3 .coluna p{
 	text-align: center;
-	color:blue;
+	color: black;
 	font-size: 18px;
 	margin-bottom: 20px;
+font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 main .grid-3 .coluna a{
-	background: red;
+	background: #1b3a61;
 	color: white;
 	padding: 5px 15px;
-	text-transform: uppercase;
+	
 	font-weight: bold;
 	text-decoration: none;
+font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 main .grid-3 .coluna a:hover{
-	background: blue;
+	background: black;
 }
 aside{
 	width: 20%;
+    
 }
 aside img{
 	width: 100%;
@@ -113,14 +149,17 @@ aside a:hover img{
 }
 footer{
 	width: 100%;
-	background: black;
+	background: #1b3a61;
 	display: flex;
 	padding: 20px;
 }	
 footer h2{
 	font-size: 26px;
-	color: yellow;
-	text-transform: uppercase;
+	color: white;
+	
+font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 footer form{
 	border: 1px solid white;
@@ -133,15 +172,17 @@ footer form input[type='text']{
 	border: 0;
 	margin-bottom: 5px;
 	width: 100%;
+
 }
 footer form input[type='submit']{
-	background: blue;
+	background: #1b3a61;
 	color: white;
 	padding: 7px 15px;
 	border: 0;
+
 }
 footer form input[type='submit']:hover{
-	background: red;
+	background: black;
 }
 footer .footer-grid{
 	margin: 10px;
@@ -149,6 +190,10 @@ footer .footer-grid{
 }
 footer p{
 	color: white;
+font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
 }
 footer .redes div img{
     width: 40px;
@@ -156,10 +201,12 @@ footer .redes div img{
 }
 footer .redes div{
     color: #fff;
+
 }
 footer .redes div{
     display: flex;
     align-items: center;
+
 }
 @media screen and (max-width: 1108px){
     main .grid-3 .coluna{
@@ -175,5 +222,12 @@ footer .redes div{
     }
     aside{
 	display: none;
+    }
+    footer{
+     flex-direction: column;
+    text-align: center;
+    }
+    footer .footer-grid{
+    width: 100%
     }
 }
