@@ -42,6 +42,9 @@ header ul li a:hover{
 }
 div.content{
     display:flex;
+     flex-wrap:
+     width: 1320px;
+     margin: 0 auto;
 }
 main{
 	width: 80%;
@@ -208,6 +211,19 @@ footer .redes div{
     align-items: center;
 
 }
+#sobre h1{
+     text-align: center;
+     color: red;
+     width: 100%;
+     margin-bottom: 25px;
+}
+#sobre p{
+     line-height: 22px;
+     text-align: center;
+     font-size: 20px;
+     width: 800px;
+     margin: 0 auto;
+}
 @media screen and (max-width: 1108px){
     main .grid-3 .coluna{
 	width: 47%;
@@ -231,3 +247,4 @@ footer .redes div{
     width: 100%
     }
 }
+
