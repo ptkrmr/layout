@@ -45,6 +45,7 @@ div.content{
      flex-wrap:
      width: 1320px;
      margin: 0 auto;
+     align-items: center;
 }
 main{
 	width: 80%;
@@ -223,6 +224,14 @@ footer .redes div{
      font-size: 20px;
      width: 800px;
      margin: 0 auto;
+}
+#sobre .galeria img{
+     display: flex;
+     flex-wrap: 
+}
+#form{
+     display: flex;
+     align-items: center;
 }
 @media screen and (max-width: 1108px){
     main .grid-3 .coluna{
