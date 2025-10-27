@@ -1,6 +1,24 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
 <html>
 <head>
-	<title>Layout</title>
+	<title>Contato</title>
     <meta name="viewport"content="width=device-width,initial=scale-1">
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -11,41 +29,21 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Sobre nós</a></li>
-				<li><a href="#">Contato</a></li>
+				<li><a href="layout.html">Inicio</a></li>
+				<li><a href="sobre.html">Sobre nós</a></li>
+				<li><a href="contato.html">Contato</a></li>
 			</ul>
 		</nav>
 	</header>
-     <div class="content">
-          <h1>Sobre nós</h1>
-     </div>
-<div class="form">
-<h2>Formulário de Contato</h2>
-    <form action="#" method="post">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
-        
-        <label for="assunto">Assunto:</label><br>
-        <input type="text" id="assunto" name="assunto" required><br><br>
-        
-        <label for="telefone">Telefone:</label><br>
-        <input type="tel" id="telefone" name="telefone" required><br><br>
-        
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
-        
-        <button type="submit">Enviar</button>
-    </form>
-</div>
-     <div class="descricao">
-          <p>aaaaaaaaaaaaaaaamagelaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          <div class="galeria">
-               <img src="https://cdn0.peritoanimal.com.br/pt/posts/3/0/0/alimentacao_do_gato_siames_21003_600.jpg">
-               <img src="https://cdn0.peritoanimal.com.br/pt/posts/3/0/0/alimentacao_do_gato_siames_21003_600.jpg">
-               <img src="https://cdn0.peritoanimal.com.br/pt/posts/3/0/0/alimentacao_do_gato_siames_21003_600.jpg">
-               <img src="https://cdn0.peritoanimal.com.br/pt/posts/3/0/0/alimentacao_do_gato_siames_21003_600.jpg">
-               <img src="https://cdn0.peritoanimal.com.br/pt/posts/3/0/0/alimentacao_do_gato_siames_21003_600.jpg">
-               </div>
-          </div>
-     </div>
+     
+	<div class="content" id="contato">
+		<h1>Contato</h1>
+
+		<form>
+			<input type="text" name="nome" placeholder="Seu nome">
+			<input type="text" name="email" placeholder="Seu e-mail">
+			<input type="text" name="telefone" placeholder="Telefone">	
+			<textarea name="mensagem" placeholder="Sua mensagem"></textarea>
+			<input type="submit" name="enviar" value="Enviar">
+		</form>
+	</div>
